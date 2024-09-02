@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <title>Cores de Recomeço</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Sofia está se sentindo mal morando no Brasil e sua mãe sugere de fazer uma mudança de país para recomeçar sua vida do zero. Ela está prestes a se mudar e pode escolher entre dois destinos: Itália ou Grécia.</p>
+            <button class="btn-proximo" data-proximo="1">Itália</button>
+            <button class="btn-proximo" data-proximo="2">Grécia</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Sofia chega à Itália e é recebida por paisagens deslumbrantes e arquitetura histórica. Ela vai morar com uma velha amiga da sua mãe em uma pequena cidade na Toscana, cercada por vinhedos e colinas.</p>
+            <p>Ela começa seu primeiro dia em uma escola local e se sente nervosa. Na aula de arte, ela conhece Giulia, uma menina simpática que adora desenhar.</p>
+            <button class="btn-proximo" data-proximo="3">Sofia conversa com Giulia e as duas se tornam amigas rapidamente</button>
+            <button class="btn-proximo" data-proximo="4">Sofia fica tímida e não consegue conversar com ninguém</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Sofia chega à Grécia e se encanta com o azul intenso do mar e as casas brancas da ilha de Skopelos, onde ela vai morar com a sua tia.</p>
+            <p>Ela vai para à escola grega, e se impressiona com a mistura de tradição e modernidade. Durante o intervalo, uma menina chamada Helena a convida para passar o intervalo junto com ela e seu irmão Pietro.</p>
+            <button class="btn-proximo" data-proximo="5">Sofia aceita o convite e se diverte com eles</button>
+            <button class="btn-proximo" data-proximo="6">Sofia recusa educadamente, preferindo explorar a escola sozinha</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Sofia e Giulia passam a se encontrar depois da escola. Giulia a apresenta para um grupo de amigos, incluindo um garoto chamado Marco, que parece interessado em Sofia.</p>
+            <button class="btn-proximo" data-proximo="7">Sofia decide dar uma chance a Marco</button>
+            <button class="btn-proximo" data-proximo="8">Sofia decide que prefere apenas a amizade de Giulia</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-biblioteca.jpeg" alt="imagem explorando sozinha itália">
+            <p>Sofia ainda não fez amigos na escola, mas começa a explorar a cidade sozinha, descobre uma biblioteca aconchegante e decide voltar lá todos os dias.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Sofia se diverte muito conversando com Helena e Pietro. Mais tarde, Helena a convida para passear pelas ruas da ilha e sugere que continuem a se encontrar.</p>
+            <button class="btn-proximo" data-proximo="9">Sofia aceita a proposta e aos poucos, ela e Helena desenvolvem uma amizade verdadeira</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/cenario-passo6-café-lorenzo.jpeg" alt="imagem explorando sozinha Grécia">
+            <p>Sofia explora os arredores da escola e descobre um café encantador com vista para o mar. O barista, Lorenzo, nota seu sotaque brasileiro e começa a conversar com ela.</p>
+            <button class="btn-proximo" data-proximo="10">Sofia adora a conversa e volta ao café várias vezes, para se aproximar de Lorenzo</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-passo7-gelato.jpeg" alt="imagem gelato com Marco">
+            <p>Marco convida Sofia para passear pela cidade no fim de semana. Eles visitam uma praça histórica e comem gelato juntos.</p>
+            <button class="btn-proximo" data-proximo="11">Sofia sente algo especial entre eles e espera por mais encontros</button>
+            <button class="btn-proximo" data-proximo="12">Sofia gosta do passeio, mas prefere uma boa amizade entre eles</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Sofia escolheu manter apenas a amizade com Giulia e as duas se tornaram inseparáveis, explorando a Itália juntas e criando memórias inesquecíveis. A amizade delas provou ser mais duradoura e significativa do que qualquer romance poderia ter sido.</p>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="img/cenario-passo9-cafe-pietro.png" alt="imagem saindo com Pietro">
+            <p>Em passeio pela cidade, Helena decide levar Pietro, e ele e Sofia conversam sobre suas culturas e começam a se conhecer melhor.</p>
+            <p>Helena decide voltar para casa para deixá-los sozinhos e eles vão a uma cafeteria com vista pro mar.</p>
+            <button class="btn-proximo" data-proximo="13">Sofia se sente encantada por Pietro e pela Grécia</button>
+            <button class="btn-proximo" data-proximo="14">Sofia vê Pietro como um bom amigo, mas nada mais</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="img/cenario-passo10-festival.jpeg" alt="imagem festival com Lorenzo">
+            <p>Lorenzo convida Sofia para assistir a um festival local. Ela se sente acolhida e começa a se apaixonar pela cultura grega.</p>
+            <button class="btn-proximo" data-proximo="15">Sofia e Lorenzo se tornam bons amigos, e ela começa a desenvolver sentimentos por ele</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>Sofia enfrenta um desafio inesperado, como a dificuldade de se adaptar totalmente, uma crise de saudade, ou um mal-entendido com seus novos amigos.</p>
+            <p>Dependendo de suas escolhas anteriores, ela superará isso com o apoio dos novos amigos ou aprenderá a lidar com a situação sozinha.</p>
+            <button class="btn-proximo" data-proximo="16">Superar com o apoio dos amigos e continuar vivendo lá. (Itália ou Grécia)</button>
+            <button class="btn-proximo" data-proximo="17">Lidar com a situação sozinha, desistir e voltar embora. (Brasil)</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Sofia enfrenta um desafio inesperado, como a dificuldade de se adaptar totalmente, uma crise de saudade, ou um mal-entendido com seus novos amigos.</p>
+            <p>Dependendo de suas escolhas anteriores, ela superará isso com o apoio dos novos amigos ou aprenderá a lidar com a situação sozinha.</p>
+            <button class="btn-proximo" data-proximo="18">Superar com o apoio dos amigos e continuar vivendo lá. (Itália ou Grécia)</button>
+            <button class="btn-proximo" data-proximo="19">Lidar com a situação sozinha, desistir e voltar embora. (Brasil)</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p>Sofia enfrenta um desafio inesperado, como a dificuldade de se adaptar totalmente, uma crise de saudade, ou um mal-entendido com seus novos amigos.</p>
+            <p>Dependendo de suas escolhas anteriores, ela superará isso com o apoio dos novos amigos ou aprenderá a lidar com a situação sozinha.</p>
+            <button class="btn-proximo" data-proximo="20">Superar com o apoio dos amigos e continuar vivendo lá. (Itália ou Grécia)</button>
+            <button class="btn-proximo" data-proximo="21">Lidar com a situação sozinha, desistir e voltar embora. (Brasil)</button>
+        </div>
+        <div class="passo" id="passo-14">
+            <p>Se Sofia vê Pietro apenas como um bom amigo, eles se despedem em clima de amizade, prometendo manter contato. Sofia segue sua jornada, grata pela amizade, mas pronta para novas aventuras.</p>
+        </div>
+        <div class="passo" id="passo-15">
+            <p>Sofia enfrenta um desafio inesperado, como a dificuldade de se adaptar totalmente, uma crise de saudade, ou um mal-entendido com seus novos amigos.</p>
+            <p>Dependendo de suas escolhas anteriores, ela superará isso com o apoio dos novos amigos ou aprenderá a lidar com a situação sozinha.</p>
+            <button class="btn-proximo" data-proximo="22">Superar com o apoio dos amigos e continuar vivendo lá. (Itália ou Grécia)</button>
+            <button class="btn-proximo" data-proximo="23">Lidar com a situação sozinha, desistir e voltar embora. (Brasil)</button>
+        </div>
+        <div class="passo" id="passo-16">
+            <p>Com a ajuda de seus amigos, Sofia encontra força para superar as dificuldades. Ela decide continuar vivendo na Itália/Grécia, abraçando a nova vida e sentindo-se mais confiante e conectada ao país e às pessoas ao seu redor.</p>
+        </div>
+        <div class="passo" id="passo-17">
+            <p>Sofia opta por enfrentar a situação sozinha e, ao perceber que precisa de um recomeço, decide voltar ao Brasil. Lá, ela reflete sobre as lições aprendidas, pronta para seguir em frente, mesmo que isso signifique deixar a Itália/Grécia para trás.</p>
+        </div>
+        <div class="passo" id="passo-18">
+            <p>Com a ajuda de seus amigos, Sofia encontra força para superar as dificuldades. Ela decide continuar vivendo na Itália/Grécia, abraçando a nova vida e sentindo-se mais confiante e conectada ao país e às pessoas ao seu redor.</p>
+        </div>
+        <div class="passo" id="passo-19">
+            <p>Sofia opta por enfrentar a situação sozinha e, ao perceber que precisa de um recomeço, decide voltar ao Brasil. Lá, ela reflete sobre as lições aprendidas, pronta para seguir em frente, mesmo que isso signifique deixar a Itália/Grécia para trás.</p>
+        </div>
+        <div class="passo" id="passo-20">
+            <p>Com a ajuda de seus amigos, Sofia encontra força para superar as dificuldades. Ela decide continuar vivendo na Itália/Grécia, abraçando a nova vida e sentindo-se mais confiante e conectada ao país e às pessoas ao seu redor.</p>
+        </div>
+        <div class="passo" id="passo-21">
+            <p>Sofia opta por enfrentar a situação sozinha e, ao perceber que precisa de um recomeço, decide voltar ao Brasil. Lá, ela reflete sobre as lições aprendidas, pronta para seguir em frente, mesmo que isso signifique deixar a Itália/Grécia para trás.</p>
+        </div>
+        <div class="passo" id="passo-22">
+            <p>Com a ajuda de seus amigos, Sofia encontra força para superar as dificuldades. Ela decide continuar vivendo na Itália/Grécia, abraçando a nova vida e sentindo-se mais confiante e conectada ao país e às pessoas ao seu redor.</p>
+        </div>
+        <div class="passo" id="passo-23">
+            <p>Sofia opta por enfrentar a situação sozinha e, ao perceber que precisa de um recomeço, decide voltar ao Brasil. Lá, ela reflete sobre as lições aprendidas, pronta para seguir em frente, mesmo que isso signifique deixar a Itália/Grécia para trás.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
